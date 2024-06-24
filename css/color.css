@@ -16,18 +16,20 @@
     height: 45px;
 }
 .logo_header{
+    display: inline-flex;
     width: 45px;
     height: 45px;
 }
 .banner{
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     width: 100px;
     height: 45px;
 }
 .carlinhos{
-    width: 800px;}
+    width: 800px;
+}
 footer{
     background-color: black;
 }
