@@ -1,0 +1,56 @@
+@import url(../css/color.css);
+
+*{
+    text-decoration: var(--color-white);
+}
+body{
+    color: var(--color-white);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--color-white);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.lista__link a:hover {
+    color: var(--color-purple);
+}
+
+.lista__link a:active {
+    color: var(--color-purple);
+}
+
+.container__botao:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+.rodape__logo{
+    width: 45px;
+    height: 45px;
+}
+.footer{
+    width: 100% !important;
+    height: 420px !important;
+}
+footer{
+    background-color: black;
+}
