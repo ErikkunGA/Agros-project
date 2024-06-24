@@ -37,7 +37,7 @@ body{
     transition: 0.4s;
 }
 .bar:hover {
-    background-color: var(--color-white1);
+    background-color: var(--color-white2);
 }
 input{
     display: none;
