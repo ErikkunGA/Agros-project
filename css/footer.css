@@ -1,8 +1,10 @@
+@import url(../css/color.css);
+
 *{
-    text-decoration: white;
+    text-decoration: var(--color-white);
 }
 body{
-    color: white;
+    color: var(--color-white);
 }
 
 .rodape {
@@ -19,13 +21,13 @@ body{
 
 .lista__link a{
     text-decoration: none;
-    color: var(--color-black1);
+    color: var(--color-white);
     margin-left: 1em;
 }
 
 .rodape__texto {
     margin: 1em 0;
-    color: var(--color-gray1);
+    color: var(--color-white);
     font-size: 14px;
 }
 
@@ -48,4 +50,7 @@ body{
 .footer{
     width: 100% !important;
     height: 420px !important;
+}
+footer{
+    background-color: black;
 }

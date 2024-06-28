@@ -1,7 +1,5 @@
 @import url(../css/color.css);
 
-
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-white1);
@@ -66,6 +64,3 @@ body{
     from{margin-left: -100vw;}
     top{margin-left: -10vw;}
 }
-
-    
-

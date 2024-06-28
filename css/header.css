@@ -20,11 +20,10 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    box-shadow: 1px 1px 4px var(--color-black1);
 }
 .header{
     background-color: var(--color-white);
-    box-shadow: 1px 1px 4px var(--color-white);
+    box-shadow: 1px 1px 4px var(--color-white2);
     height: 64px;
     justify-content: space-between;
     padding: 0 5%;

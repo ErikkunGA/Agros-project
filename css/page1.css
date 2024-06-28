@@ -34,6 +34,7 @@ body{
     border-radius: 10px;
 }
 .content{
+    box-shadow: 1px 1px 4px var(--color-black1);
     text-align: center;
     padding: 10px;
     height: 100vh;
